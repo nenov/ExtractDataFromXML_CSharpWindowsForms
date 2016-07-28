@@ -34,7 +34,6 @@ namespace XMLtoForms
 
         public Person()
         {
-            // TODO: Complete member initialization
         }
    
         public void addJob(Job experience)

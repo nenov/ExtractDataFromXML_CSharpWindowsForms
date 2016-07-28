@@ -76,7 +76,7 @@ namespace XMLtoForms
             {
                 eduBox.Items.Add(temp);
             }
-
+            //Loading the rest of the xml file into the form
             nodes = doc.DocumentElement.SelectNodes("/CV/AchievementList");
             foreach (XmlNode node in nodes)
             {
